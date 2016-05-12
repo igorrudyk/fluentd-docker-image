@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER TAGOMORI Satoshi <tagomoris@gmail.com>
+MAINTAINER Igor Rudyk <rudyk.igor@gmail.com>
 LABEL Description="Fluentd docker image" Vendor="Fluent Organization" Version="1.1"
 
 # Do not split this into multiple RUN!
