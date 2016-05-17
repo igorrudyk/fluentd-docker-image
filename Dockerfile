@@ -18,6 +18,7 @@ RUN apk --no-cache --update add \
     gem install fluent-plugin-tail-multiline-ex && \
     gem install fluent-plugin-tail-multiline && \
     gem install fluent-plugin-tail-ex && \
+    gem install fluent-plugin-concat && \
     apk del build-base ruby-dev && \
     rm -rf /tmp/* /var/tmp/* /var/cache/apk/*
 
