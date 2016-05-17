@@ -16,6 +16,8 @@ RUN apk --no-cache --update add \
     gem install fluent-plugin-elasticsearch && \
     gem install fluent-plugin-xml-parser && \
     gem install fluent-plugin-tail-multiline-ex && \
+    gem install fluent-plugin-tail-multiline && \
+    gem install fluent-plugin-tail-ex && \
     apk del build-base ruby-dev && \
     rm -rf /tmp/* /var/tmp/* /var/cache/apk/*
 
